@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="form_curriculum_vitae" model="ir.ui.view">
+            <field name="name">form.curriculum.vitae</field>
+            <field name="model">curriculum.vitae</field>
+            <field name="arch" type="xml">
+                <form string="Curriculum Vitae">
+                    <header>
+                        <!-- action button -->
+                        <button name="%(curriculum_vitae.curriculum_vitae_report_id)d" type="action"
+                                string="Print PDF" class="oe_highlight" invisible="1"/>
+
+                        <!-- object button -->
+                        <button name="print_curriculum_vitae_report" type="object"
+                                string="Print PDF" class="oe_highlight" states="confirm,done"/>
+                        <button name="print_curriculum_vitae_excel_report" type="object"
+                                string="Print XLSX" class="oe_highlight" states="confirm,done"/>
+
+                        <button name="action_draft" type="object" states="done"
+                                string="Draft" class="oe_highlight"/>
+                        <button name="action_confirm" type="object" states="draft"
+                                string="Confirm" class="oe_highlight"/>
+                        <button name="action_done" type="object" states="confirm"
+                                string="Done" class="oe_highlight"/>
+
+                        <field name="state" widget="statusbar" statusbar_visible="draft,confirm,done"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="open_education_background" type="object" class="oe_stat_button"
+                                    icon="fa-university">
+                                <field name="ebl_count" string="Education" widget="statinfo"/>
+                            </button>
+                            <button name="open_employment_history" type="object" class="oe_stat_button"
+                                    icon="fa-university">
+                                <field name="ehl_count" string="Employment" widget="statinfo"/>
+                            </button>
+                            <button name="open_project_experiences" type="object" class="oe_stat_button"
+                                    icon="fa-university">
+                                <field name="pel_count" string="Project" widget="statinfo"/>
+                            </button>
+                            <button name="open_language_skills" type="object" class="oe_stat_button"
+                                    icon="fa-university">
+                                <field name="lsl_count" string="Language" widget="statinfo"/>
+                            </button>
+
+                            <button name="toggle_active" type="object" class="oe_state_button" icon="fa-archive">
+                                <field name="active" widget="boolean_button" options="{'terminology': 'archive'}"/>
+                            </button>
+                        </div>
+                        <field name="image" widget="image" class="oe_avatar"/>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1>
+                                <field name="name" place_holder="Enter your name"/>
+                            </h1>
+                            <field name="job_type"/>
+                        </div>
+
+                        <group string="Personal Particulars">
+                            <group>
+                                <field name="mobile"/>
+                                <field name="email"/>
+                                <field name="age"/>
+                                <field name="date_of_birth"/>
+                                <field name="nrc"/>
+                            </group>
+                            <group>
+                                <field name="nationality" string="Nationality"/>
+                                <field name="religion"/>
+                                <field name="gender" widget="radio"
+                                       options="{'horizontal': true}"/>
+                                <field name="marital_status" widget="radio"
+                                       options="{'horizontal': true}"/>
+                                <field name="current_address"/>
+                            </group>
+                        </group>
+                        <group string="Career Objectives">
+                            <field name="objectives" nolabel="1"/>
+                        </group>
+
+                        <notebook>
+                            <page string="Education Background">
+                                <separator string="Education Background"/>
+                                <field name="education_background_lines"/>
+                            </page>
+                            <page string="Employment History">
+                                <separator string="Employment History"/>
+                                <field name="employment_history_lines"/>
+                            </page>
+                            <page string="Project Experiences">
+                                <separator string="Project Experiences"/>
+                                <field name="project_experiences_lines"/>
+                            </page>
+                            <page string="Language Skills">
+                                <separator string="Language Skills"/>
+                                <field name="language_skills_lines"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="activity_ids" widget="mail_activity"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

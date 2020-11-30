@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <report id="reporting_cv_simple_excel"
+                model="reporting.wizard"
+                string="Curriculum Vitae Simple Excel Report"
+                report_type="xlsx"
+                name="curriculum_vitae.reporting_cv_simple_excel_id"
+                file="Curriculum Vitae Simple"
+                menu="False"/>
+
+        <report id="reporting_cv_standard_excel"
+                model="reporting.wizard"
+                string="Curriculum Vitae Standard Excel Report"
+                report_type="xlsx"
+                name="curriculum_vitae.reporting_cv_standard_excel_id"
+                file="Curriculum Vitae Standard"
+                menu="False"/>
+    </data>
+</odoo>

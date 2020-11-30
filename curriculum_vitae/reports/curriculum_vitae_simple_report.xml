@@ -1,0 +1,130 @@
+<odoo>
+    <data>
+        <template id="curriculum_vitae_simple_template">
+            <t t-call="web.html_container">
+                <t t-call="web.basic_layout">
+                    <div class="page" style="font-family:'Myanmar3';">
+                        <t t-foreach="docs" t-as="doc">
+                            <table class="table o_main_table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2" style="text-align:center; vertical-align:middle;">
+                                            <h1>CURRICULUM VITAE</h1>
+                                        </th>
+                                        <th style="width:25%; text-align:center; vertical-align:middle">
+                                            <div style="border:1px solid gray; height:2in; width:2in;">
+                                                <span t-field="doc.cv_image"
+                                                      t-options="{'widget': 'image', 'style': 'height:100%; width:100%;'}"/>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th style="width:25%;">Name</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.name"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>NRC</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.nrc"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Date of Birth</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.date_of_birth"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Place of Birth</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.place_of_birth"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Nationality</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.nationality"/>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Gender</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.gender"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Qualification</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.qualification"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hobby</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.hobby"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Address</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.address"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Permanent Address</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.permanent_address"/>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Email</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.email"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Facebook</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.facebook"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.phone"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Field of Interest</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.field_of_interest"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Working Experience</th>
+                                        <td colspan="2">:
+                                            <span t-field="doc.working_experience"/>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </t>
+                    </div>
+                </t>
+            </t>
+        </template>
+
+        <report id="curriculum_vitae_simple_report"
+                model="curriculum.vitae.simple"
+                string="Curriculum Vitae Simple Report"
+                report_type="qweb-pdf"
+                name="curriculum_vitae.curriculum_vitae_simple_template"
+                file="curriculum_vitae.curriculum_vitae_simple_template"/>
+    </data>
+</odoo>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="kanban_curriculum_vitae_standard" model="ir.ui.view">
+            <field name="name">kanban.curriculum.vitae.standard</field>
+            <field name="model">curriculum.vitae</field>
+            <field name="arch" type="xml">
+                <kanban class="oe_kanban_mobile">
+                    <field name="id"/>
+                    <field name="image"/>
+                    <field name="name"/>
+                    <field name="job_type"/>
+                    <field name="email"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+                                    <img t-att-src="kanban_image('curriculum.vitae','image',record.id.raw_value)"
+                                        alt="Image"/>
+                                </div>
+                                <div class="o_kanban_details">
+                                    <field name="name"/>
+                                    <br/>
+                                    <field name="job_type"/>
+                                    <br/>
+                                    <field name="email"/>
+                                    <br/>
+                                    <button name="%(curriculum_vitae.curriculum_vitae_report_id)d"
+                                            type="action" class="btn btn-info">Print PDF
+                                    </button>
+                                    <button name="%(curriculum_vitae.curriculum_vitae_excel_report_id)d"
+                                            type="action" class="btn btn-info">Print XLSX
+                                    </button>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+    </data>
+</odoo>

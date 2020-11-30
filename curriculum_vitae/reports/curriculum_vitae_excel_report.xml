@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <report id="curriculum_vitae_excel_report_id"
+                string="Curriculum Vitae Excel Report"
+                model="curriculum.vitae"
+                report_type="xlsx"
+                name="curriculum_vitae.curriculum_vitae_excel_report_template"
+                file="CV Form"/>
+    </data>
+</odoo>

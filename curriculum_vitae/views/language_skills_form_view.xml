@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="form_language_skills">
+            <field name="name">form.language.skills</field>
+            <field name="model">language.skills</field>
+            <field name="arch" type="xml">
+                <form string="Language Skills">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="level"/>
+                            </group>
+                            <group>
+                                <field name="education_center"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

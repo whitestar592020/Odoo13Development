@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="action_project_experiences" model="ir.actions.act_window">
+            <field name="name">Project Experiences</field>
+            <field name="res_model">project.experiences</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p>Create your first project experiences!</p>
+            </field>
+        </record>
+
+        <menuitem id="project_experiences" name="Project Experiences"
+                  parent="cv_information"
+                  action="action_project_experiences"
+                  sequence="30"/>
+    </data>
+</odoo>

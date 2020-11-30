@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="tree_language_skills" model="ir.ui.view">
+            <field name="name">tree.language.skills</field>
+            <field name="model">language.skills</field>
+            <field name="arch" type="xml">
+                <tree string="Language Skills">
+                    <field name="name"/>
+                    <field name="level"/>
+                    <field name="education_center"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

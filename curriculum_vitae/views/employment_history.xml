@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="action_employment_history" model="ir.actions.act_window">
+            <field name="name">Employment History</field>
+            <field name="res_model">employment.history</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p>Create your first employment history!</p>
+            </field>
+        </record>
+
+        <menuitem id="employment_history" name="Employment History"
+                  parent="cv_information"
+                  action="action_employment_history"
+                  sequence="20"/>
+    </data>
+</odoo>

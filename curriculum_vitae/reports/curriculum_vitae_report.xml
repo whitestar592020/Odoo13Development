@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <template id="curriculum_vitae_report_template">
+            <t t-call="web.html_container">
+                <t t-call="web.basic_layout">
+                    <div class="page" style="font-family:'Myanmar3';">
+                        <t t-foreach="docs" t-as="doc">
+                            <!-- Header table -->
+                            <table class="table table-sm">
+                                <tr>
+                                    <th style="text-align:center; vertical-align:middle;">
+                                        <h1>
+                                            <span t-field="doc.name"/>
+                                        </h1>
+                                    </th>
+                                    <th style="width:25%; text-align:center; vertical-align:middle;">
+                                        <div style="height:2in; width:2in; border:1px solid gray;">
+                                            <span t-field="doc.image"
+                                                  t-options="{'widget': 'image', 'style': 'height:100%; width:100%;'}"/>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </table>
+
+                            <!-- Personal Particulars -->
+                            <h3 style="background-color:green; color:white;">Personal Particulars</h3>
+                            <table class="table table-sm o_mail_table">
+                                <tr>
+                                    <th style="width:20%;">Mobile</th>
+                                    <td>:
+                                        <span t-field="doc.mobile"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Email</th>
+                                    <td>:
+                                        <span t-field="doc.email"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Age</th>
+                                    <td>:
+                                        <span t-field="doc.age"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Date of Birth</th>
+                                    <td>:
+                                        <span t-field="doc.date_of_birth"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>NRC</th>
+                                    <td>:
+                                        <span t-field="doc.nrc"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Nationality</th>
+                                    <td>:
+                                        <span t-field="doc.nationality"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Religion</th>
+                                    <td>:
+                                        <span t-field="doc.religion"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Gender</th>
+                                    <td>:
+                                        <span t-field="doc.gender"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Marital Status</th>
+                                    <td>:
+                                        <span t-field="doc.marital_status"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Current Address</th>
+                                    <td>:
+                                        <span t-field="doc.current_address"/>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Career Objectives -->
+                            <h3 style="background-color:green; color:white;">Career Objectives</h3>
+                            <div style="width:100%;">
+                                <span t-field="doc.objectives"/>
+                            </div>
+
+                            <!-- Education Background -->
+                            <h3 style="background-color:green; color:white;">Education Background</h3>
+                            <table class="table table-sm o_main_table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Country</th>
+                                        <th>Certification</th>
+                                        <th>Description</th>
+                                        <th>Period From</th>
+                                        <th>Period To</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-foreach="doc.education_background_lines" t-as="line">
+                                        <tr>
+                                            <td>
+                                                <span t-field="line.name"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.country"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.certification"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.description"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.period_from"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.period_to"/>
+                                            </td>
+                                        </tr>
+                                    </t>
+                                </tbody>
+                            </table>
+
+                            <!-- Employment History -->
+                            <h3 style="background-color:green; color:white;">Employment History</h3>
+                            <table class="table table-sm o_main_table">
+                                <thead>
+                                    <tr>
+                                        <th>Company Name</th>
+                                        <th>Position</th>
+                                        <th>Responsibilities</th>
+                                        <th>Period From</th>
+                                        <th>Period To</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-foreach="doc.employment_history_lines" t-as="line">
+                                        <tr>
+                                            <td>
+                                                <span t-field="line.name"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.position"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.responsibilities"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.period_from"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.period_to"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.description"/>
+                                            </td>
+                                        </tr>
+                                    </t>
+                                </tbody>
+                            </table>
+
+                            <!-- Project Experiences -->
+                            <h3 style="background-color:green; color:white;">Project Experiences</h3>
+                            <table class="table table-sm o_main_table">
+                                <thead>
+                                    <tr>
+                                        <th>Project Name</th>
+                                        <th>Position</th>
+                                        <th>Responsibilities</th>
+                                        <th>Programming Languages</th>
+                                        <th>Period From</th>
+                                        <th>Period To</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-foreach="doc.project_experiences_lines" t-as="line">
+                                        <tr>
+                                            <td>
+                                                <span t-field="line.name"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.position"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.responsibilities"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.programming_languages"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.period_from"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.period_to"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.description"/>
+                                            </td>
+                                        </tr>
+                                    </t>
+                                </tbody>
+                            </table>
+
+                            <!-- Language Skills -->
+                            <h3 style="background-color:green; color:white;">Language Skills</h3>
+                            <table class="table table-sm o_main_table">
+                                <thead>
+                                    <tr>
+                                        <th>Language</th>
+                                        <th>Level</th>
+                                        <th>Education Center</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-foreach="doc.language_skills_lines" t-as="line">
+                                        <tr>
+                                            <td>
+                                                <span t-field="line.name"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.level"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.education_center"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="line.description"/>
+                                            </td>
+                                        </tr>
+                                    </t>
+                                </tbody>
+                            </table>
+                        </t>
+                    </div>
+                </t>
+            </t>
+        </template>
+
+        <report id="curriculum_vitae_report_id"
+                model="curriculum.vitae"
+                string="Curriculum Vitae Report"
+                report_type="qweb-pdf"
+                name="curriculum_vitae.curriculum_vitae_report_template"
+                file="curriculum_vitae.curriculum_vitae_report_template"
+        />
+
+        <record id="curriculum_vitae_report_paper_format" model="report.paperformat">
+            <field name="name">Curriculum Vitae Report Paper Format</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">10</field>
+            <field name="margin_bottom">10</field>
+            <field name="margin_left">5</field>
+            <field name="margin_right">5</field>
+            <field name="report_ids" eval="[(4, ref('curriculum_vitae.curriculum_vitae_report_id'))]"/>
+        </record>
+    </data>
+</odoo>

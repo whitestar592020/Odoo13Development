@@ -1,0 +1,1226 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* curriculum_vitae
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-30 02:42+0000\n"
+"PO-Revision-Date: 2020-11-30 02:42+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_needaction
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_needaction
+msgid "Action Needed"
+msgstr "လုပ်ဆောင်ရန်လိုအပ်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__active
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__active
+msgid "Active"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__activity_ids
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__activity_ids
+msgid "Activities"
+msgstr "အသုံးပြုနေ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__activity_state
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__activity_state
+msgid "Activity State"
+msgstr "လှုပ်ရှားမှုအဆင့်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:45
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:44
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__address
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Address"
+msgstr "နေရပ်လိပ်စာ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:34
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:34
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__age
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Age"
+msgstr "အသက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_attachment_count
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_attachment_count
+msgid "Attachment Count"
+msgstr "ပူးတွဲပါအရေအတွက်"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+msgid "CURRICULUM VITAE"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.ui.menu,name:curriculum_vitae.cv_form
+msgid "CV Form"
+msgstr "CV ပုံစံ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__cv_image
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__simple_image
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__standard_image
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.kanban_curriculum_vitae_simple
+msgid "CV Image"
+msgstr "CV ပုံ"
+
+#. module: curriculum_vitae
+#: model:ir.ui.menu,name:curriculum_vitae.cv_information
+msgid "CV Information"
+msgstr "CV အချက်အလက်"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_reporting_wizard
+msgid "Cancel"
+msgstr "ဖျက်သိမ်းသည်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:54
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:54
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Career Objectives"
+msgstr "အလုပ်ရှာဖွေရေးရည်ရွယ်ချက်များ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:67
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:68
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__certification
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Certification"
+msgstr "အသိအမှတ်ပြုလက်မှတ်"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_reporting_wizard
+msgid "Choose Curriculum Vitae Type"
+msgstr "Curriculum Vitae အမျိုးအစားကိုရွေးချယ်ပါ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_reporting_wizard
+msgid "Choose Simple Curriculum Vitae"
+msgstr "Simple Curriculum Viate ကိုရွှေးချယ်ပါ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_reporting_wizard
+msgid "Choose Standard Curriculum Vitae"
+msgstr "Standard Curriculum Vitae ကိုရွှေးချယ်ပါ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:98
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:99
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__name
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Company Name"
+msgstr "ကုမ္ပဏီအမည်"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,state:0
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+msgid "Confirm"
+msgstr "အတည်ပြု"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_form_view
+msgid "Contact Information"
+msgstr "ဆက်သွယ်ရန်အချက်အလက်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:65
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:66
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__nationality
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__country
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Country"
+msgstr "နိုင်ငံ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.actions.act_window,help:curriculum_vitae.action_curriculum_vitae
+msgid "Create your first CV form."
+msgstr "သင်၏ပထမဆုံး CV ပုံစံကိုဖန်တီးပါ။"
+
+#. module: curriculum_vitae
+#: model_terms:ir.actions.act_window,help:curriculum_vitae.action_curriculum_vitae_simple
+msgid "Create your first curriculum vitae form!"
+msgstr "သင်၏ပထမဆုံး curriculum vitae ပုံစံကိုဖန်တီးပါ။"
+
+#. module: curriculum_vitae
+#: model_terms:ir.actions.act_window,help:curriculum_vitae.action_education_background
+msgid "Create your first education background!"
+msgstr "သင်၏ပထမဆုံးပညာရေးနောက်ခံကိုဖန်တီးပါ။"
+
+#. module: curriculum_vitae
+#: model_terms:ir.actions.act_window,help:curriculum_vitae.action_employment_history
+msgid "Create your first employment history!"
+msgstr "သင်၏ပထမဆုံးအလုပ်အကိုင်သမိုင်းကိုဖန်တီးပါ။"
+
+#. module: curriculum_vitae
+#: model_terms:ir.actions.act_window,help:curriculum_vitae.action_language_skills
+msgid "Create your first language skills!"
+msgstr "သင်၏ပထမဆုံးဘာသာစကားစွမ်းရည်ကိုဖန်တီးပါ။"
+
+#. module: curriculum_vitae
+#: model_terms:ir.actions.act_window,help:curriculum_vitae.action_project_experiences
+msgid "Create your first project experiences!"
+msgstr "သင်၏ပထမဆုံး Project အတွေ့အကြုံများကိုဖန်တီးပါ။"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_curriculum_vitae_excel_report_template__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_cv_form_simple_excel_report_id__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_simple_excel_id__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_standard_excel_id__create_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__create_uid
+msgid "Created by"
+msgstr "ဖန်တီးသူ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_curriculum_vitae_excel_report_template__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_cv_form_simple_excel_report_id__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_simple_excel_id__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_standard_excel_id__create_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:49
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:49
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__current_address
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Current Address"
+msgstr "လက်ရှိနေရပ်လိပ်စာ"
+
+#. module: curriculum_vitae
+#: model:ir.actions.act_window,name:curriculum_vitae.action_curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__curriculum_vitae_id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__curriculum_vitae_id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__curriculum_vitae_id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__curriculum_vitae_id
+#: model:ir.ui.menu,name:curriculum_vitae.curriculum_vitae
+#: model:ir.ui.menu,name:curriculum_vitae.curriculum_vitae_menu
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.search_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.tree_curriculum_vitae
+msgid "Curriculum Vitae"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.actions.report,name:curriculum_vitae.curriculum_vitae_excel_report_id
+msgid "Curriculum Vitae Excel Report"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.actions.report,name:curriculum_vitae.curriculum_vitae_report_id
+#: model:ir.actions.report,name:curriculum_vitae.reporting_cv_standard_pdf
+msgid "Curriculum Vitae Report"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.actions.act_window,name:curriculum_vitae.action_curriculum_vitae_simple
+#: model:ir.ui.menu,name:curriculum_vitae.curriculum_vitae_simple
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_form_view
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.tree_curriculum_vitae_simple
+msgid "Curriculum Vitae Simple"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.actions.report,name:curriculum_vitae.cv_form_simple_excel_report
+#: model:ir.actions.report,name:curriculum_vitae.reporting_cv_simple_excel
+msgid "Curriculum Vitae Simple Excel Report"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_curriculum_vitae_simple
+msgid "Curriculum Vitae Simple Format"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.actions.report,name:curriculum_vitae.curriculum_vitae_simple_report
+#: model:ir.actions.report,name:curriculum_vitae.reporting_cv_simple_pdf
+msgid "Curriculum Vitae Simple Report"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.actions.report,name:curriculum_vitae.reporting_cv_standard_excel
+msgid "Curriculum Vitae Standard Excel Report"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__cv_type
+msgid "Curriculum Vitae Type"
+msgstr "Curriculum Vitae အမျိုးအစား"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,job_type:0
+#: selection:curriculum.vitae.simple,job_type:0
+msgid "Customer Service"
+msgstr ""
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:37
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:31
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:31
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:37
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__date_of_birth
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__date_of_birth
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Date of Birth"
+msgstr "မွေးဖွားသည့်ရက်စွဲ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:69
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:108
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:178
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:70
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:109
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:179
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__description
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__description
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__description
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__description
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Description"
+msgstr "ဖော်ပြချက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_curriculum_vitae_excel_report_template__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_cv_form_simple_excel_report_id__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_simple_excel_id__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_standard_excel_id__display_name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__display_name
+msgid "Display Name"
+msgstr "ဖော်ပြမည့်အမည်"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,state:0
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+msgid "Done"
+msgstr "ပြီးပြီ"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,state:0
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+msgid "Draft"
+msgstr "မူကြမ်း"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__ebl_count
+msgid "EBL count"
+msgstr "EBL အရေအတွက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__ehl_count
+msgid "EHL count"
+msgstr "EHL အရေအတွက်"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+msgid "Education"
+msgstr "ပညာရေး"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:60
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:61
+#: model:ir.actions.act_window,name:curriculum_vitae.action_education_background
+#: model:ir.ui.menu,name:curriculum_vitae.education_background
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_education_background
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.tree_education_background
+#, python-format
+msgid "Education Background"
+msgstr "ပညာရေးနောက်ခံ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__education_background_lines
+msgid "Education Background Lines"
+msgstr "ပညာရေးနောက်ခံလိုင်းများ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:176
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:177
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__education_center
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Education Center"
+msgstr "ပညာရေးစင်တာ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:32
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:50
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:49
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:32
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__email
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__email
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Email"
+msgstr "အီးမေးလ်"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+msgid "Employment"
+msgstr "အလုပ်အကိုင်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:95
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:96
+#: model:ir.actions.act_window,name:curriculum_vitae.action_employment_history
+#: model:ir.ui.menu,name:curriculum_vitae.employment_history
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_employment_history
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.tree_employment_history
+#, python-format
+msgid "Employment History"
+msgstr "အလုပ်အကိုင်သမိုင်း"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__employment_history_lines
+msgid "Employment History Lines"
+msgstr "အလုပ်အကိုင်သမိုင်းလိုင်းများ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_employment_history
+msgid "Enter Company Name"
+msgstr "ကုမ္ပဏီအမည်ရိုက်ထည့်ပါ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_education_background
+msgid "Enter Education Name"
+msgstr "ပညာရေးအမည်ရိုက်ထည့်ပါ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_project_experiences
+msgid "Enter Position"
+msgstr "ရာထူးထည့်ပါ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_project_experiences
+msgid "Enter Project Name"
+msgstr "Project အမည်ရိုက်ထည့်ပါ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_form_view
+msgid "Enter your name"
+msgstr "သင့်အမည်ထည့်ပါ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:52
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:51
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__facebook
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Facebook"
+msgstr ""
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,gender:0
+#: selection:curriculum.vitae.simple,gender:0
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.search_curriculum_vitae
+msgid "Female"
+msgstr "အမျိုးသမီး"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:56
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:55
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__field_of_interest
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Field of Interest"
+msgstr "အကျိုးစီးပွားနယ်ပယ်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_follower_ids
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_channel_ids
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_partner_ids
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:47
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:39
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:38
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:47
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__gender
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__gender
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__simple_gender
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__standard_gender
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.search_curriculum_vitae
+#, python-format
+msgid "Gender"
+msgstr "ကျား/မ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_form_view
+msgid "General Information"
+msgstr "ယေဘုယျသတင်းအချက်အလက်"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.search_curriculum_vitae
+msgid "Group By"
+msgstr "အုပ်စုလိုက်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:43
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:42
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__hobby
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Hobby"
+msgstr "ဝါသနာ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_curriculum_vitae_excel_report_template__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_cv_form_simple_excel_report_id__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_simple_excel_id__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_standard_excel_id__id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae__message_unread
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae_simple__message_unread
+msgid "If checked new messages require your attention."
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae__message_needaction
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae_simple__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "check လုပ်ထားပါက message အသစ်များသည်သင်၏အာရုံစူးစိုက်မှုကိုလိုအပ်သည်။"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae__message_has_error
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae_simple__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "အမှန်ခြစ်ထားပါက၊ အချို့သောစာများသည်ပို့ပေးသည့်အမှားတစ်ခုရှိသည်။"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__image
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__image
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__image
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__image
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.kanban_curriculum_vitae_standard
+msgid "Image"
+msgstr "ပုံ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_education_background
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_employment_history
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_project_experiences
+msgid "Information"
+msgstr "အချက်အလက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_is_follower
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__job_type
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__job_type
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__simple_job_type
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__standard_job_type
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.search_curriculum_vitae
+msgid "Job Type"
+msgstr "အလုပ်အမျိုးအစား"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__lsl_count
+msgid "LSL count"
+msgstr "LSL အရေအတွက်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:172
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:173
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__name
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Language"
+msgstr "ဘာသာစကား"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:169
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:170
+#: model:ir.actions.act_window,name:curriculum_vitae.action_language_skills
+#: model:ir.ui.menu,name:curriculum_vitae.language_skills
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_language_skills
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.tree_language_skills
+#: model:res.groups,name:curriculum_vitae.group_language_skills
+#, python-format
+msgid "Language Skills"
+msgstr "ဘာသာစကားကျွမ်းကျင်မှု"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__language_skills_lines
+msgid "Language Skills Lines"
+msgstr "ဘာသာစကားကျွမ်းကျင်မှုလိုင်းများ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_curriculum_vitae_excel_report_template____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_cv_form_simple_excel_report_id____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_simple_excel_id____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_standard_excel_id____last_update
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_curriculum_vitae_excel_report_template__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_cv_form_simple_excel_report_id__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_simple_excel_id__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_standard_excel_id__write_uid
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_curriculum_vitae_excel_report_template__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_cv_form_simple_excel_report_id__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_simple_excel_id__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_report_curriculum_vitae_reporting_cv_standard_excel_id__write_date
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:174
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:175
+#: model:ir.model.fields,field_description:curriculum_vitae.field_language_skills__level
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Level"
+msgstr "အဆင့်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_main_attachment_id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "အဓိကပူးတွဲပါ"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,gender:0
+#: selection:curriculum.vitae.simple,gender:0
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.search_curriculum_vitae
+msgid "Male"
+msgstr "အမျိုးသား"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:51
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:51
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__marital_status
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.search_curriculum_vitae
+#, python-format
+msgid "Marital Status"
+msgstr "အိမ်ထောင်ရေး"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,marital_status:0
+msgid "Married"
+msgstr "လက်ထပ်ခဲ့သည်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_has_error
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_has_error
+msgid "Message Delivery error"
+msgstr "မက်ဆေ့ခ်ျပို့အမှား"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_ids
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_ids
+msgid "Messages"
+msgstr "မက်ဆေ့ခ်ျ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:30
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:30
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__mobile
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Mobile"
+msgstr "မိုဘိုင်းလ်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:40
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:29
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:29
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:40
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__nrc
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__nrc
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "NRC"
+msgstr "နိုင်ငံသားစီစစ်ရေးကဒ်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:63
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:27
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:27
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:64
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__name
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__name
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Name"
+msgstr "အမည်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:43
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:36
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:35
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:43
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__nationality
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.search_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.tree_curriculum_vitae
+#, python-format
+msgid "Nationality"
+msgstr "နိုင်ငံသား"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__activity_date_deadline
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__activity_summary
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__activity_type_id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_needaction_counter
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_needaction_counter
+msgid "Number of Actions"
+msgstr "လုပ်ဆောင်မှုအရေအတွက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_has_error_counter
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_has_error_counter
+msgid "Number of error"
+msgstr "အမှားအရေအတွက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae__message_needaction_counter
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae_simple__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "လုပ်ဆောင်ချက်တစ်ခုလိုအပ်သောစာအရေအတွက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae__message_has_error_counter
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae_simple__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ပေးပို့အမှားနှင့်အတူမက်ဆေ့ခ်ျအရေအတွက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae__message_unread_counter
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae_simple__message_unread_counter
+msgid "Number of unread messages"
+msgstr "မဖတ်ရသေးသောစာအရေအတွက်"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__objectives
+msgid "Objectives"
+msgstr "ရည်ရွယ်ချက်များ"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,gender:0
+#: selection:curriculum.vitae.simple,gender:0
+msgid "Other"
+msgstr "အခြား"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,activity_state:0
+#: selection:curriculum.vitae.simple,activity_state:0
+msgid "Overdue"
+msgstr "ရက်ကျော်နေပြီ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__pel_count
+msgid "PEL count"
+msgstr "PEL အရေအတွက်"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_education_background
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_employment_history
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_project_experiences
+msgid "Period"
+msgstr "ကာလ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:71
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:104
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:143
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:72
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:105
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:144
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__period_from
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__period_from
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__period_from
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Period From"
+msgstr "ကာလ - မှ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:73
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:106
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:145
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:74
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:107
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:146
+#: model:ir.model.fields,field_description:curriculum_vitae.field_education_background__period_to
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__period_to
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__period_to
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Period To"
+msgstr "ကာလ - သို့"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:47
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:46
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__permanent_address
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Permanent Address"
+msgstr "အမြဲတမ်းနေရပ်လိပ်စာ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_form_view
+msgid "Personal Information"
+msgstr "ကိုယ်ပိုင်သတင်းအချက်အလက်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:29
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:29
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Personal Particulars"
+msgstr "ပုဂ္ဂိုလ်ရေးနှင့်သက်ဆိုင်သော"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:54
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:53
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__phone
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Phone"
+msgstr "ဖုန်း"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:34
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:33
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__place_of_birth
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Place of Birth"
+msgstr "မွေးရပ်ဒေသ"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,activity_state:0
+#: selection:curriculum.vitae.simple,activity_state:0
+msgid "Planned"
+msgstr "စီစဉ်ထားသည်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:100
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:137
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:101
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:138
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__position
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__position
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Position"
+msgstr "ရာထူး"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_reporting_wizard
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.kanban_curriculum_vitae_standard
+msgid "Print PDF"
+msgstr "PDF ကိုပုံနှိပ်ပါ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_reporting_wizard
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.kanban_curriculum_vitae_standard
+msgid "Print XLSX"
+msgstr "XLSX ကိုပုံနှိပ်ပါ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:141
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:142
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__programming_languages
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Programming Languages"
+msgstr "ပရိုဂရမ်ဘာသာစကားများ"
+
+#. module: curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+msgid "Project"
+msgstr ""
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:132
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:133
+#: model:ir.actions.act_window,name:curriculum_vitae.action_project_experiences
+#: model:ir.ui.menu,name:curriculum_vitae.project_experiences
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_curriculum_vitae
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_project_experiences
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.tree_project_experiences
+#, python-format
+msgid "Project Experiences"
+msgstr "Project အတွေ့အကြုံများ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__project_experiences_lines
+msgid "Project Experiences Lines"
+msgstr "Project အတွေ့အကြုံလိုင်းများ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:135
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:136
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__name
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Project Name"
+msgstr "Project အမည်"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:41
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:40
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__qualification
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Qualification"
+msgstr "အရည်အချင်း"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,job_type:0
+#: selection:curriculum.vitae.simple,job_type:0
+msgid "Quality Assurance"
+msgstr "အရည်အသွေးအာမခံ"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:45
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:45
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__religion
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Religion"
+msgstr "ဘာသာတရား"
+
+#. module: curriculum_vitae
+#: model:ir.actions.act_window,name:curriculum_vitae.action_reporting_wizard
+#: model:ir.ui.menu,name:curriculum_vitae.menu_reporting
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.form_reporting_wizard
+msgid "Reporting"
+msgstr "သတင်းပို့ခြင်း"
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:102
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_excel_report.py:139
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:103
+#: code:addons/curriculum_vitae/wizard/reporting_cv_standard_excel.py:140
+#: model:ir.model.fields,field_description:curriculum_vitae.field_employment_history__responsibilities
+#: model:ir.model.fields,field_description:curriculum_vitae.field_project_experiences__responsibilities
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_report_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_standard_pdf_template
+#, python-format
+msgid "Responsibilities"
+msgstr "တာဝန်ဝတ္တရားများ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__activity_user_id
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__activity_user_id
+msgid "Responsible User"
+msgstr "တာဝန်ယူအသုံးပြုသူ"
+
+#. module: curriculum_vitae
+#: selection:reporting.wizard,cv_type:0
+msgid "Simple"
+msgstr "ရိုးရှင်းသော"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__simple_cv_form
+msgid "Simple CV From"
+msgstr "ရိုးရှင်းသော CV ပုံစံ"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,marital_status:0
+msgid "Single"
+msgstr "လူပျို/အပျို"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,job_type:0
+#: selection:curriculum.vitae.simple,job_type:0
+msgid "Software Developer"
+msgstr ""
+
+#. module: curriculum_vitae
+#: selection:reporting.wizard,cv_type:0
+msgid "Standard"
+msgstr "စံ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_reporting_wizard__standard_cv_form
+msgid "Standard CV From"
+msgstr "Standard CV ပုံစံ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__state
+msgid "Status"
+msgstr "အခြေအနေ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae__activity_state
+#: model:ir.model.fields,help:curriculum_vitae.field_curriculum_vitae_simple__activity_state
+msgid "Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,job_type:0
+#: selection:curriculum.vitae.simple,job_type:0
+msgid "System Analyser"
+msgstr ""
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,activity_state:0
+#: selection:curriculum.vitae.simple,activity_state:0
+msgid "Today"
+msgstr "ယနေ့"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_unread
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_unread
+msgid "Unread Messages"
+msgstr "မဖတ်ရသေးသောစာများ"
+
+#. module: curriculum_vitae
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae__message_unread_counter
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "မဖတ်ရသေးသောစာများရေတွက"
+
+#. module: curriculum_vitae
+#: selection:curriculum.vitae,job_type:0
+#: selection:curriculum.vitae.simple,job_type:0
+msgid "Web Developer"
+msgstr ""
+
+#. module: curriculum_vitae
+#: code:addons/curriculum_vitae/reports/curriculum_vitae_simple_excel_report.py:58
+#: code:addons/curriculum_vitae/wizard/reporting_cv_simple_excel.py:57
+#: model:ir.model.fields,field_description:curriculum_vitae.field_curriculum_vitae_simple__working_experience
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.curriculum_vitae_simple_template
+#: model_terms:ir.ui.view,arch_db:curriculum_vitae.reporting_cv_simple_pdf_template
+#, python-format
+msgid "Working Experience"
+msgstr "လုပ်ငန်းအတွေ့အကြုံ"
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_curriculum_vitae
+msgid "curriculum.vitae"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_education_background
+msgid "education.background"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_employment_history
+msgid "employment.history"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_language_skills
+msgid "language.skills"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_project_experiences
+msgid "project.experiences"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_report_curriculum_vitae_curriculum_vitae_excel_report_template
+msgid "report.curriculum_vitae.curriculum_vitae_excel_report_template"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_report_curriculum_vitae_cv_form_simple_excel_report_id
+msgid "report.curriculum_vitae.cv_form_simple_excel_report_id"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_report_curriculum_vitae_cv_form_simple_report_id
+msgid "report.curriculum_vitae.cv_form_simple_report_id"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_report_curriculum_vitae_reporting_cv_simple_excel_id
+msgid "report.curriculum_vitae.reporting_cv_simple_excel_id"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_report_curriculum_vitae_reporting_cv_standard_excel_id
+msgid "report.curriculum_vitae.reporting_cv_standard_excel_id"
+msgstr ""
+
+#. module: curriculum_vitae
+#: model:ir.model,name:curriculum_vitae.model_reporting_wizard
+msgid "reporting.wizard"
+msgstr ""
+

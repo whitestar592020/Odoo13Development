@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <report id="cv_form_simple_excel_report"
+                model="curriculum.vitae.simple"
+                string="Curriculum Vitae Simple Excel Report"
+                report_type="xlsx"
+                name="curriculum_vitae.cv_form_simple_excel_report_id"
+                file="curriculum_vitae.cv_form_simple_excel_report_id"/>
+    </data>
+</odoo>

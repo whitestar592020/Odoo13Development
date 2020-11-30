@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="tree_project_experiences" model="ir.ui.view">
+            <field name="name">tree.project.experiences</field>
+            <field name="model">project.experiences</field>
+            <field name="arch" type="xml">
+                <tree string="Project Experiences">
+                    <field name="name"/>
+                    <field name="position"/>
+                    <field name="responsibilities"/>
+                    <field name="programming_languages"/>
+                    <field name="period_from"/>
+                    <field name="period_to"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

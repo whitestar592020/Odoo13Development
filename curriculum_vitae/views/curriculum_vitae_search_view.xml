@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="search_curriculum_vitae" model="ir.ui.view">
+            <field name="name">search.curriculum.vitae</field>
+            <field name="model">curriculum.vitae</field>
+            <field name="arch" type="xml">
+                <search string="Curriculum Vitae">
+                    <field name="name"/>
+                    <field name="nationality" string="Nationality"/>
+
+                    <filter name="male" string="Male" domain="[('gender', '=', 'male')]"/>
+                    <filter name="female" string="Female" domain="[('gender', '=', 'female')]"/>
+
+                    <group string="Group By">
+                        <filter string="Gender" name="gender" context="{'group_by': 'gender'}"/>
+                        <filter string="Job Type" name="job_type" context="{'group_by': 'job_type'}"/>
+                        <separator/>
+                        <filter string="Marital Status" name="marital_status" context="{'group_by': 'marital_status'}"/>
+                    </group>
+                </search>
+             </field>
+         </record>
+    </data>
+</odoo>

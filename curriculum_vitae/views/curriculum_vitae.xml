@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <!-- Action of curriculum vitae model -->
+        <record id="action_curriculum_vitae" model="ir.actions.act_window">
+            <field name="name">Curriculum Vitae</field>
+            <field name="res_model">curriculum.vitae</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="help" type="html">
+                <p>Create your first CV form.</p>
+            </field>
+        </record>
+
+        <menuitem id="curriculum_vitae" name="Curriculum Vitae"
+                  parent="curriculum_vitae_menu"
+                  sequence="10"
+                  action="action_curriculum_vitae"/>
+    </data>
+</odoo>

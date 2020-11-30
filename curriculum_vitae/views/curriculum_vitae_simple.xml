@@ -1,0 +1,68 @@
+<odoo>
+    <data>
+        <!-- Kanban view of curriculum_vitae_simple model -->
+        <record id="kanban_curriculum_vitae_simple" model="ir.ui.view">
+            <field name="name">kanban.curriculum.vitae.simple</field>
+            <field name="model">curriculum.vitae.simple</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_mobile">
+                    <field name="id"/>
+                    <field name="cv_image"/>
+                    <field name="name"/>
+                    <field name="nationality"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+                                    <img t-att-src="kanban_image('curriculum.vitae.simple','cv_image',record.id.raw_value)"
+                                         alt="CV Image"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <field name="name"/>
+                                    <br/>
+                                    <field name="nationality"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <!-- Tree view of curriculum_vitae_simple model -->
+        <record id="tree_curriculum_vitae_simple" model="ir.ui.view">
+            <field name="name">tree.curriculum.vitae.simple</field>
+            <field name="model">curriculum.vitae.simple</field>
+            <field name="arch" type="xml">
+                <tree string="Curriculum Vitae Simple">
+                    <field name="name"/>
+                    <field name="nrc"/>
+                    <field name="date_of_birth"/>
+                    <field name="place_of_birth"/>
+                    <field name="nationality"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Action of curriculum_vitae_simple model -->
+        <record id="action_curriculum_vitae_simple" model="ir.actions.act_window">
+            <field name="name">Curriculum Vitae Simple</field>
+            <field name="res_model">curriculum.vitae.simple</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="help" type="html">
+                <p>Create your first curriculum vitae form!</p>
+            </field>
+        </record>
+
+        <menuitem id="cv_form" name="CV Form"/>
+
+        <menuitem id="curriculum_vitae_menu" name="Curriculum Vitae"
+                  parent="cv_form"
+                  sequence="10"/>
+
+        <menuitem id="curriculum_vitae_simple" name="Curriculum Vitae Simple"
+                  parent="curriculum_vitae_menu"
+                  sequence="20"
+                  action="action_curriculum_vitae_simple"/>
+    </data>
+</odoo>

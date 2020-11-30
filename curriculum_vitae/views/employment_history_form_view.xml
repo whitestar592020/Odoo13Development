@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="form_employment_history">
+            <field name="name">form.employment.history</field>
+            <field name="model">employment.history</field>
+            <field name="arch" type="xml">
+                <form string="Employment History">
+                    <sheet>
+                        <field name="image" widget="image" class="oe_avatar"/>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1>
+                                <field name="name" placeholder="Enter Company Name"/>
+                            </h1>
+                        </div>
+
+                        <group>
+                            <group string="Information">
+                                <field name="position"/>
+                                <field name="responsibilities"/>
+                            </group>
+                            <group string="Period">
+                                <field name="period_from"/>
+                                <field name="period_to"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="tree_education_background" model="ir.ui.view">
+            <field name="name">tree.education.background</field>
+            <field name="model">education.background</field>
+            <field name="arch" type="xml">
+                <tree string="Education Background">
+                    <field name="name"/>
+                    <field name="country"/>
+                    <field name="certification"/>
+                    <field name="description"/>
+                    <field name="period_from"/>
+                    <field name="period_to"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

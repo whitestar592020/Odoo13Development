@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_curriculum_vitae_simple,Curriculum Vitae Simple,model_curriculum_vitae_simple,,1,1,1,1
+
+access_curriculum_vitae,Curriculum Vitae,model_curriculum_vitae,,1,1,1,1
+access_education_background,Education Background,model_education_background,,1,1,1,1
+access_employment_history,Employment History,model_employment_history,,1,1,1,1
+access_project_experiences,Project Experiences,model_project_experiences,,1,1,1,1
+access_language_skills,Language Skills,model_language_skills,,1,1,1,1
+access_reporting_wizard,Reporting Wizard,model_reporting_wizard,,1,1,1,1

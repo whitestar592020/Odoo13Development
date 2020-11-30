@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="action_language_skills" model="ir.actions.act_window">
+            <field name="name">Language Skills</field>
+            <field name="res_model">language.skills</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p>Create your first language skills!</p>
+            </field>
+        </record>
+
+        <menuitem id="language_skills" name="Language Skills"
+                  parent="cv_information"
+                  action="action_language_skills"
+                  sequence="40"
+                  groups="curriculum_vitae.group_language_skills"/>
+    </data>
+</odoo>
